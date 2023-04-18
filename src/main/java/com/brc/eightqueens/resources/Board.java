@@ -9,6 +9,17 @@ public class Board {
         BOARD_SIZE = boardSize;
         board = new String[BOARD_SIZE][BOARD_SIZE];
     }
+    
+    public Board(int boardSize, String fillCharacter) {
+        BOARD_SIZE = boardSize;
+        board = new String[BOARD_SIZE][BOARD_SIZE];
+        
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                board[i][j] = fillCharacter;
+            }
+        }
+    }
 
     public String[][] getBoard() {
         return this.board;

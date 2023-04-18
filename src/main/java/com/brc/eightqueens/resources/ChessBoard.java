@@ -8,6 +8,10 @@ public class ChessBoard extends Board{
         super(boardSize);
     }
 
+    public ChessBoard(int boardSize, String fillCharacter) {
+        super(boardSize, fillCharacter);
+    }
+
     
     public void setElement(ChessPiece piece, int row, int col) {
         String pieceSymbol = piece.toString();

@@ -18,6 +18,10 @@ Here're some of the project's best features:
 *   Column checker
 
 <h2> TODO </h2>
-*  Document some pieces of code
-*  Provide board places heuristic (not the most optimal solution, but it might be required)
+
+Things to do:
+
+*   Document some pieces of code
+*   Provide board places heuristic (not the most optimal solution, but it might be required)
+*   Change implementation by interfaces (more extensible)
  

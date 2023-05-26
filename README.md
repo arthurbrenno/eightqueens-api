@@ -2,7 +2,7 @@
 
 <p id="description">Status: [90%]<br><br>Java API for your Eight Queens Application!</p>
 
-<h2>Project Screenshots:</h2>
+<h2>Example Screenshots:</h2>
 
 <img src="https://solarianprogrammer.com/images/2017/11/20/queens_attack_patterns.png" alt="project-screenshot" width="400" height="400/">
 
